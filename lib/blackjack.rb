@@ -58,6 +58,7 @@ end
 def runner
   card_total = 0
   welcome
+
   until card_total > 21 do
 
     card_total = hit?(initial_round)
@@ -66,5 +67,6 @@ def runner
       puts "you loose"
     end
   end
+
 end
     
