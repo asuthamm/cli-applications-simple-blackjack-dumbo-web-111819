@@ -64,7 +64,7 @@ def runner
     card_total = hit?(initial_round)
     puts card_total
     if card_total > 21
-      puts "you loose"
+      end_game(card_total)
     end
   end
 
